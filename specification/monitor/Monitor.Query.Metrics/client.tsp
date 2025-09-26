@@ -63,3 +63,6 @@ using MonitorQueryMetrics;
 @@clientName(MetricResultsResponseValuesItem.endtime, "endTime", "javascript");
 @@clientName(MetricResultsResponseValuesItem.value, "metrics", "javascript");
 @@clientName(Metric.displayDescription, "description", "javascript");
+
+// .NET configuration
+@@clientName(MonitorQueryMetrics, "Client", "go");
