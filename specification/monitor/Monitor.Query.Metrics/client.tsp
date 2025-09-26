@@ -65,4 +65,13 @@ using MonitorQueryMetrics;
 @@clientName(Metric.displayDescription, "description", "javascript");
 
 // .NET configuration
-@@clientName(MonitorQueryMetrics, "Client", "go");
+@@clientName(MonitorQueryMetrics, "MetricsClient", "csharp");
+@@clientName(MetricResultsResponse, "MetricsQueryResourcesResult", "csharp");
+@@clientName(MetricResultsResponseValuesItem, "MetricsQueryResult", "csharp");
+@@clientName(Metric, "MetricResult", "csharp");
+
+@@clientName(MetricResultsResponseValuesItem.value, "Metrics", "csharp");
+@@clientName(MetricResultsResponseValuesItem.interval, "Granularity", "csharp");
+@@clientName(Metric.displayDescription, "Description", "csharp");
+
+@@access(MetricResultsResponseValuesItem.resourceid, Access.internal, "csharp");
