@@ -7,7 +7,7 @@ namespace ClientCustomizations;
 
 @@clientName(MonitorQueryMetrics, "Client", "go");
 
-@@clientName(MonitorQueryMetrics.batch, "queryResources");
+@@clientName(MonitorQueryMetrics.v, "queryResources");
 
 using MonitorQueryMetrics;
 
@@ -74,4 +74,5 @@ using MonitorQueryMetrics;
 @@clientName(MetricResultsResponseValuesItem.interval, "Granularity", "csharp");
 @@clientName(Metric.displayDescription, "Description", "csharp");
 
+@@access(MonitorQueryMetrics.batch, Access.internal, "csharp");
 @@access(MetricResultsResponseValuesItem.resourceid, Access.internal, "csharp");
