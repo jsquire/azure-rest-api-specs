@@ -73,7 +73,7 @@ using MonitorQueryMetrics;
 @@clientName(MetricResultsResponseValuesItem.value, "Metrics", "csharp");
 @@clientName(MetricResultsResponseValuesItem.interval, "Granularity", "csharp");
 @@clientName(Metric.displayDescription, "Description", "csharp");
-@@clientName(Metric.Timeseries, "TimeSeries", "csharp");
+@@clientName(Metric.timeseries, "TimeSeries", "csharp");
 
 @@access(MonitorQueryMetrics.batch, Access.internal, "csharp");
 @@access(MetricResultsResponseValuesItem.resourceid, Access.internal, "csharp");
