@@ -76,5 +76,6 @@ using MonitorQueryMetrics;
 @@clientName(Metric.timeseries, "TimeSeries", "csharp");
 @@clientName(TimeSeriesElement.data, "Values", "csharp");
 
+@@access(ResourceIdList, Access.internal, "csharp");
 @@access(MonitorQueryMetrics.batch, Access.internal, "csharp");
 @@access(MetricResultsResponseValuesItem.resourceid, Access.internal, "csharp");
